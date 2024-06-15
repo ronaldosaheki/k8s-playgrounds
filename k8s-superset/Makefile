@@ -16,3 +16,6 @@ install-helm: install-openssl
 	curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 install: install-helm
+
+install-k9s:
+	curl -OL https://github.com/derailed/k9s/releases/download/v0.32.4/k9s_Linux_amd64.tar.gz
